@@ -1,11 +1,3 @@
-// import React from 'react'
-
-// function Footer() {
-//   return <div className="bg-[#4682B4]"></div>;
-// }
-
-// export default Footer
-
 import React from "react";
 import {
 	FaDribbbleSquare,
@@ -18,7 +10,7 @@ import {
 const Footer = () => {
 	return (
 		<div className="w-full bg">
-			<div className="text-white grid md:grid-cols-2 max-w-[1240] py-20 px-10">
+			<div className="text-white mx-auto grid md:grid-cols-2 max-w-[1240px] py-20 px-4 ">
 				<div className="logo">
 					<h2 className="text-3xl py-2 font-bold hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-b from-orange-500 to-yellow-300 ease-in-out hover:duration-500 active:animate-ping">
 						Gro
@@ -37,7 +29,7 @@ const Footer = () => {
 						<FaDribbbleSquare size={30} />
 					</div>
 				</div>
-				<div className="footerHeading flex justify-between p-4">
+				<div className="footerHeading flex justify-between space-x-2">
 					<ul className="flex-col">
 						<h6>Solutions</h6>
 						<li className="py-2 text-sm">Analytics</li>
@@ -45,14 +37,14 @@ const Footer = () => {
 						<li className="py-2 text-sm">Commerce</li>
 						<li className="py-2 text-sm">Insights</li>
 					</ul>
-					<ul className="flex-col">
+					<ul className="flex-col mr-2">
 						<h6>Support</h6>
 						<li className="py-2 text-sm">Pricing</li>
 						<li className="py-2 text-sm">Documentation</li>
 						<li className="py-2 text-sm">Guides</li>
 						<li className="py-2 text-sm">API Status</li>
 					</ul>
-					<ul className="flex-col">
+					<ul className="flex-col mr-2">
 						<h6>Company</h6>
 						<li className="py-2 text-sm">About</li>
 						<li className="py-2 text-sm">Blog</li>
@@ -60,7 +52,7 @@ const Footer = () => {
 						<li className="py-2 text-sm">Press</li>
 						<li className="py-2 text-sm">Careers</li>
 					</ul>
-					<ul className="flex-col">
+					<ul className="flex-col mr-2">
 						<h6>Legal</h6>
 						<li className="py-2 text-sm">Claim</li>
 						<li className="py-2 text-sm">Policy</li>

@@ -6,8 +6,8 @@ import triple from "../assets/triple.png";
 function Cards() {
 	return (
 		<div className="w-full text-black bg-white">
-			<div className="grid md:grid-cols-3 p-20 gap-8 mx-auto justify-center items-center ">
-				<div className="card w-full shadow-2xl rounded-2xl  hover:animate-pulse duration-75 p-2">
+			<div className="grid md:grid-cols-3 p-20 min-w-[400] gap-8 mx-auto justify-center items-center ">
+				<div className="card w-full shadow-2xl rounded-2xl  hover:animate-pulse duration-75 px-8 py-2 ">
 					<img src={single} alt="single" className=" w-20 mx-auto" />
 					<h2 className="text-2xl lg:text-3xl border-b-2 text-center p-2">
 						Single User
@@ -22,7 +22,7 @@ function Cards() {
 						</button>
 					</div>
 				</div>
-				<div className="card w-full shadow-2xl   rounded-2xl  hover:animate-pulse duration-75 p-2">
+				<div className="card w-full shadow-2xl   rounded-2xl  hover:animate-pulse duration-75 px-8 py-2">
 					<img src={double} alt="single" className=" w-20 mx-auto" />
 					<h2 className="text-2xl lg:text-3xl border-b-2 text-center p-2">
 						Single User
@@ -37,7 +37,7 @@ function Cards() {
 						</button>
 					</div>
 				</div>
-				<div className="card w-full shadow-2xl   rounded-2xl  hover:animate-pulse duration-75 p-2">
+				<div className="card w-full shadow-2xl   rounded-2xl  hover:animate-pulse duration-75  px-8 py-2">
 					<img src={triple} alt="single" className=" w-20 mx-auto" />
 					<h2 className="text-2xl lg:text-3xl border-b-2 text-center p-2">
 						Single User

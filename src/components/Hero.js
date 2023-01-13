@@ -2,7 +2,7 @@ import React from "react";
 import Typed from "react-typed";
 function Hero() {
 	return (
-		<div className="text-white max-w-[800px] flex flex-col p-24 lg:p-52  mx-auto h-fit text-center">
+		<div className="text-white max-w-[800px] flex flex-col p-28 lg:p-52  mx-auto h-fit text-center">
 			<p className="text-[#4682B4] p-1">Growing with Data Analytics</p>
 			<p className="text-5xl lg:txt-5xl p-2 font-extrabold">Grow With Data</p>
 			<div className="flex-row sm:flex justify-center font-bold items-center text-xl lg:3xl space-x-2">
